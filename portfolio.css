@@ -115,6 +115,15 @@ section {
     margin: 1rem;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
+.responsive-image {
+    width: 100%; /* Image will take up 100% of its container's width */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 600px; /* Optional: Set a maximum width to prevent it from getting too large */
+    display: block; /* Center the image if necessary */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
 
 article {
     background: rgba(0, 0, 0, 0.3);
